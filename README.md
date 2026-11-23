@@ -39,6 +39,12 @@ live site stays as it was.
 The workflow needs the repo secret `VERCEL_DEPLOY_HOOK_URL`: a Deploy Hook of the site's Vercel project
 (Project Settings, Git, Deploy Hooks, on the `main` branch).
 
+## Editing in a browser
+
+[Pages CMS](https://pagescms.org) edits the articles in a web editor: `.pages.yml` describes them to it. Sign in at
+[app.pagescms.org](https://app.pagescms.org) and install its GitHub App on this repo. Someone without a GitHub account can
+be invited by email as a collaborator of the repo in Pages CMS. Every save is a commit to `main`, which publishes.
+
 ## Previewing an article locally
 
 Check out [MatthewPersonalWebsite](https://github.com/LukeNeedham/MatthewPersonalWebsite), then:

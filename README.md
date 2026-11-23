@@ -4,6 +4,9 @@ The content of the blog of [matthewjneedham.com](https://matthewjneedham.com): e
 they use. The site's code is in [MatthewPersonalWebsite](https://github.com/LukeNeedham/MatthewPersonalWebsite),
 which downloads this repo's `main` every time it is built.
 
+The blog articles are just markdown files in git. They can be edited directly as the files via git, or they can be edited
+via [Pages CMS](https://pagescms.org).
+
 ## Layout
 
 ```

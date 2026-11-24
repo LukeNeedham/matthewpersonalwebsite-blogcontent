@@ -25,6 +25,9 @@ date: 2026-09-12
 The first paragraph has no heading, and `##` starts a section.
 ```
 
+Add `draft: true` to keep an article out of the blog: it stays in the repo, and the site's build leaves it out (its
+fields are not checked either). In Pages CMS this is the **Draft** checkbox; untick it to publish.
+
 The page shows the title and date itself, so they are not repeated in the text. The date is `YYYY-MM-DD`.
 
 An image goes in `images/`, and an article shows it with a path relative to the article, so it shows on GitHub too:
